@@ -8,7 +8,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.green,
         appBar: AppBar(
-          title: Text('Deux Dee'),
+          title: Text('Deux Dee - Ndole'),
           backgroundColor: Colors.green[900],
         ),
         body: DicePage(),
@@ -19,7 +19,6 @@ void main() {
 
 class DicePage extends StatefulWidget {
   const DicePage({Key? key}) : super(key: key);
-
   @override
   _DicePageState createState() => _DicePageState();
 }
@@ -38,7 +37,6 @@ class _DicePageState extends State<DicePage> {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-
     return Center(
       child: Row(
         children: [
